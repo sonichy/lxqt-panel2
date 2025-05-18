@@ -4,7 +4,7 @@
 lxqt-build-tools, clang  
 
 ## Build & Install
-./install.sh
+./install.sh  
 /usr/lib/x86_64-linux-gnu/lxqt-panel/*.so  
 Arch: /usr/lib/lxqt-panel/*.so  
 /usr/share/lxqt/lxqt-panel/*.desktop  
