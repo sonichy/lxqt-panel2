@@ -48,6 +48,7 @@ DatetimePlugin::DatetimePlugin(const ILXQtPanelPluginStartupInfo &startupInfo) :
     connect(timer, SIGNAL(timeout()), this, SLOT(refresh()));
 
     QCalendarWidget *calendar = new QCalendarWidget;
+    calendar->setFirstDayOfWeek(Qt::Sunday);
     calendar->setWindowFlags(Qt::Popup);
     calendar->setFixedSize(400, 300);
     connect(mWidget, &QToolButton::clicked, this, [=] {

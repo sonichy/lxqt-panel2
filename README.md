@@ -42,11 +42,6 @@ Desktop Entry/Name[zh_CN]: "日期时间"
 Desktop Entry/Comment[zh_CN]: "日期时间插件"
 
 ## Attention
-### QString::QString(const char*)’ is private within this context
-QStringLiteral("") needed.  
-
-QString s(QByteArray) → QString s = QString::fromUtf8(QByteArray)  
-
 configurationDialog do not use exec(), it will cause settings.setValue() fail.
 
 ### Failed to extract plugin meta data from '/usr/lib/lxqt-panel/libdatetime.so': '/usr/lib/lxqt-panel/libdatetime.so' is not a Qt plugin (metadata not found)"
